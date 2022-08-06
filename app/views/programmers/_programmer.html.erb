@@ -1,0 +1,13 @@
+<%= link_to programmer_path(programmer) do %>
+<p class="list-group-item programmer-item">
+<%= image_tag programmer.image, width: '70px' %>
+<%= programmer.name %><br>
+<%= programmer.home_country %><br>
+<%= programmer.birth_date %><br>
+<%= programmer.death_date %><br>
+<%= programmer.image %><br>
+<%= programmer.wikipedia_page %><br>
+<%= programmer.quote %><br>
+<%= programmer.claim_to_fame %><br>
+<% end %>
+</p>
